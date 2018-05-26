@@ -10,7 +10,7 @@
 # Description:       Start or stop the Shadowsocks server
 ### END INIT INFO
 
-# Author: Teddysun <i@teddysun.com>
+# Author: Ache1123 <i@Ache1123.com>
 
 if [ -f /usr/bin/ssserver ]; then
     BIN=/usr/bin/ssserver

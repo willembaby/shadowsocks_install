@@ -4,9 +4,9 @@ export PATH
 #===================================================================#
 #   System Required:  Debian or Ubuntu                              #
 #   Description: Install Shadowsocks-libev server for Debian/Ubuntu #
-#   Author: Teddysun <i@teddysun.com>                               #
+#   Author: Ache1123 <i@Ache1123.com>                               #
 #   Thanks: @madeye <https://github.com/madeye>                     #
-#   Intro:  https://teddysun.com/358.html                           #
+#   Intro:  https://Ache1123.com/358.html                           #
 #===================================================================#
 
 # Current folder
@@ -87,7 +87,7 @@ get_latest_version(){
     [ -z ${ver} ] && echo "Error: Get shadowsocks-libev latest version failed" && exit 1
     shadowsocks_libev_ver="shadowsocks-libev-$(echo ${ver} | sed -e 's/^[a-zA-Z]//g')"
     download_link="https://github.com/shadowsocks/shadowsocks-libev/releases/download/${ver}/${shadowsocks_libev_ver}.tar.gz"
-    init_script_link="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian"
+    init_script_link="https://raw.githubusercontent.com/Ache1123/shadowsocks_install/master/shadowsocks-libev-debian"
 }
 
 get_opsy(){
@@ -124,8 +124,8 @@ print_info(){
     clear
     echo "#############################################################"
     echo "# Install Shadowsocks-libev server for Debian or Ubuntu     #"
-    echo "# Intro:  https://teddysun.com/358.html                     #"
-    echo "# Author: Teddysun <i@teddysun.com>                         #"
+    echo "# Intro:  https://Ache1123.com/358.html                     #"
+    echo "# Author: Ache1123 <i@Ache1123.com>                         #"
     echo "# Github: https://github.com/shadowsocks/shadowsocks-libev  #"
     echo "#############################################################"
     echo
@@ -223,8 +223,8 @@ pre_install(){
 
     # Set shadowsocks-libev config password
     echo "Please input password for shadowsocks-libev:"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(Default password: Ache1123.com):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="Ache1123.com"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
@@ -394,7 +394,7 @@ install_shadowsocks(){
         fi
     else
         echo
-        echo -e "[${red}Error${plain}] Shadowsocks-libev install failed. please visit https://teddysun.com/358.html and contact."
+        echo -e "[${red}Error${plain}] Shadowsocks-libev install failed. please visit https://Ache1123.com/358.html and contact."
         exit 1
     fi
 
@@ -411,7 +411,7 @@ install_shadowsocks(){
     echo -e "Your Password         : \033[41;37m ${shadowsockspwd} \033[0m"
     echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
     echo
-    echo "Welcome to visit:https://teddysun.com/358.html"
+    echo "Welcome to visit:https://Ache1123.com/358.html"
     echo "Enjoy it!"
     echo
 }

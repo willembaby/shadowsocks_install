@@ -4,7 +4,7 @@
 #
 # Description: Install haproxy for Shadowsocks server
 #
-# Author: Teddysun <i@teddysun.com>
+# Author: Ache1123 <i@Ache1123.com>
 #
 # Intro:  https://shadowsocks.be/10.html
 #
@@ -18,7 +18,7 @@ echo
 echo "#############################################################"
 echo "# Install haproxy for Shadowsocks server                    #"
 echo "# Intro: https://shadowsocks.be/10.html                     #"
-echo "# Author: Teddysun <i@teddysun.com>                         #"
+echo "# Author: Ache1123 <i@Ache1123.com>                         #"
 echo "#############################################################"
 echo
 

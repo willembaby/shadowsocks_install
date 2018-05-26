@@ -10,7 +10,7 @@
 # Description:       Start or stop the Shadowsocks-go server
 ### END INIT INFO
 
-# Author: Teddysun <i@teddysun.com>
+# Author: Ache1123 <i@Ache1123.com>
 
 NAME=Shadowsocks-go
 BIN=/usr/bin/shadowsocks-server
